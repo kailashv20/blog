@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(227, 227, 227);
+}
+
+img {
+  cursor: pointer;
+}
+
+/* header  */
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 8px 0px;
+  background: #fff;
+}
+
+header > .HeadLeft {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.HeadMidIcon,
+.HeaderRightIcon {
+  height: 20px;
+  width: 20px;
+}
+.UserIconContainer {
+  display: flex;
+  font-display: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+  font-size: 20px;
+  font-weight: 500;
+}
+.UserIcon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+header > .HeadMid {
+  width: 40%;
+  display: flex;
+  font-display: row;
+  align-items: center;
+  justify-content: space-between;
+}
+header > .HeadRight {
+  width: 20%;
+  padding-right: 10px;
+  display: flex;
+  font-display: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.break {
+  border-right: 1px solid rgb(58, 58, 58);
+  padding-right: 10px;
+}
+
+/* blog */
+
+main {
+  width: 100%;
+  padding: 2%;
+  display: flex;
+  font-display: row;
+}
+
+.Blog {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 20px;
+  padding: 1%;
+  border-color: 1px solid rgb(136, 136, 136);
+}
+
+.Blog > h1 {
+  color: rgb(57, 57, 57);
+  font-size: 20px;
+}
+
+.BlogItem {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.BlogItemIcon {
+  width: 24%;
+  height: 100%;
+  border-radius: 10px;
+}
+.BlogItemIcon > img {
+  border-radius: 10px;
+}
+
+.BlogItemContent {
+  width: 74%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.BlogItemContent > p {
+  font-size: 18px;
+  color: #000;
+}
+
+.BlogItemContent > span {
+  color: darkgray;
+  font-size: 14px;
+}
+
+.Activity {
+  width: 40%;
+  padding: 0% 1% 0% 1%;
+}
+.ActivityPost {
+  border: 1px solid silver;
+  display: flex;
+  border-radius: 10px;
+  background: #fff;
+  flex-direction: column;
+}
+.ActivityPostTop {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  padding: 2%;
+  border-bottom: 1px solid silver;
+}
+
+.ActivityPostTop > textarea {
+  border: none;
+  width: 90%;
+  height: 100%;
+  outline: none;
+}
+
+.ActivityPostTopUser {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.ActivityPostBottom {
+  padding: 2%;
+}
+
+.ActivityPostBottom > img {
+  margin-right: 8px;
+}
+
+.ActivityTab {
+  margin-top: 4%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  color: #000;
+  font-size: 14px;
+}
+
+.ActivityTabSmall {
+  width: 15%;
+}
+
+.ActivityTabBig {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.Orange {
+  border-bottom: 1px solid orangered;
+}
+
+.ActivityTabBig > input {
+  width: 60%;
+  padding: 4px;
+  border: 1px solid silver;
+}
+
+.Profile {
+  width: 28%;
+}
+
+.postIcon {
+  color: orange !important;
+}
+
+.ActivityNew {
+  margin-top: 3%;
+  border-radius: 15px;
+  background: #fff;
+}
+
+.ActivityNewTop {
+  display: flex;
+  flex-direction: row;
+  padding: 3%;
+}
+
+.ActivityNewTopLeft {
+  width: 10%;
+}
+
+.ActivityNewTopRight {
+  display: flex;
+  flex-direction: column;
+}
+
+.ActivityNewIMg {
+  width: 98%;
+}
+.ActivityNewIMg > img {
+  width: 100%;
+  height: 100%;
+}
